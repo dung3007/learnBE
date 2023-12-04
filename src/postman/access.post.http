@@ -1,0 +1,11 @@
+@url_dev=http://localhost:3000/v1/api/
+
+POST {{url_dev}}/shop/login
+Content-Type: application/json
+x-api-key: 4441b55269c63f7d3b881ba155edab875b3fa480381f0881c6199cc51cf39e7f1738b23a1d6ee5372effc75eca57206bdcf0f08170a307952bff9c4221d8c346
+
+{
+    "name": "Shop1",
+    "email": "shop3@gmail.com",
+    "password": "12345678"
+}
